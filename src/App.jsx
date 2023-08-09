@@ -59,7 +59,7 @@ function App() {
   return (
     <>
        
-    className={(typeof weather.main !='undefined')?((weather.main.temp > 15)? 'App warm':'App'):'App'}>
+    <div className={(typeof weather.main !='undefined')?((weather.main.temp > 15)? 'App warm':'App'):'App'}>
     
     <main>
       {/* Div for the search bar of the application */}
